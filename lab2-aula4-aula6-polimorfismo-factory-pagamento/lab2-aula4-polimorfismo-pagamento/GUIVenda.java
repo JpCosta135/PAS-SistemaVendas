@@ -1,13 +1,9 @@
-package View;
-import Controller.ControladorRealizarVenda;
-import Model.Venda;
-import Repository.CatalogoProdutos;
 
-import java.time.LocalDateTime;
+import Modelo.Venda;
+import Modelo.*;
+ import java.time.LocalDateTime;
 
-public class GUIVenda {
-	
-	public static void main(String[] args){
+ void main(){
 
 		String hoje = LocalDateTime.now().toString();
 		Venda venda = new Venda(hoje);
@@ -24,6 +20,3 @@ public class GUIVenda {
 		System.out.println("Troco = " + venda.getTroco());
 		
 	}
-	
-
-}
