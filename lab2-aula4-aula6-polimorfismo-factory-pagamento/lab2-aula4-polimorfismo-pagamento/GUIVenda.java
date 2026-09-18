@@ -14,6 +14,7 @@ import Modelo.*;
 		controladorVenda.entrarItem("002", 1);
 		controladorVenda.entrarItem("003", 2);
 		controladorVenda.registrarPagamento(500, 2);
+	 
 		System.out.println("Total = " + venda.getTotal());
 		System.out.println("Troco = " + venda.getTroco());
 		
