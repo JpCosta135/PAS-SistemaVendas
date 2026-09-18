@@ -1,4 +1,4 @@
-package Model.Pagamento;
+package Modelo.Pagamento;
 
 public class PagamentoDebito extends Pagamento {
 
@@ -9,6 +9,6 @@ public class PagamentoDebito extends Pagamento {
 
     @Override
     public void autorizar() {
-        System.out.println("Pagamento com debito autorizado");
+        System.out.println("Modelo.Pagamento com debito autorizado");
     }
 }

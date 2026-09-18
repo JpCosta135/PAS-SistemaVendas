@@ -1,9 +1,4 @@
-package Service;
-
-import Model.ItemVenda;
-import Model.Pagamento.Pagamento;
-import Model.Produto;
-import Model.Venda;
+import Modelo.Pagamento.Pagamento;
 
 public class PagamentoService {
 

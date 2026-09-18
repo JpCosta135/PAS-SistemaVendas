@@ -1,4 +1,4 @@
-package Model.Pagamento;
+package Modelo.Pagamento;
 
 public class PagamentoPIX extends Pagamento {
 
@@ -10,7 +10,7 @@ public class PagamentoPIX extends Pagamento {
 
     @Override
     public void autorizar() {
-        System.out.println("Pagamento PIX autorizado");
+        System.out.println("Modelo.Pagamento PIX autorizado");
 
     }
 }
