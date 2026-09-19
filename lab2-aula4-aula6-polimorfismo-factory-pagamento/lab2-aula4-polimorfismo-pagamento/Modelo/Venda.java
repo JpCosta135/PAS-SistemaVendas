@@ -1,6 +1,7 @@
 package Modelo;
 
 import Modelo.Pagamento.Pagamento;
+import Service.FactoryPagamento;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -41,9 +42,17 @@ public class Venda {
 		ItemVenda itemVenda = new ItemVenda(quantidade, produto);
 
 		this.itemsVenda.add(itemVenda);
+	}
 
+	public void efetuarPagamento(double valorRecebido, int tipoPagamento){
+
+		FactoryPagamento fabrica = new FactoryPagamento();
+		Pagamento p = fabrica.obterFormaPagamento(tipoPagamento, valorRecebido);
+		p.autorizar();
 
 	}
+
+
 	
 
 
