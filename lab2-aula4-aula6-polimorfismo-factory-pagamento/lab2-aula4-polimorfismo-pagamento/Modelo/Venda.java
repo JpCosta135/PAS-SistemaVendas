@@ -1,11 +1,10 @@
 package Modelo;
 
 import Modelo.Pagamento.Pagamento;
-import Service.FactoryPagamento;
-
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
+import Sistema.FactoryPagamento;
 
 
 public class Venda {

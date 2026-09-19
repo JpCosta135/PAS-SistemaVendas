@@ -1,7 +1,9 @@
 
+import Sistema.CatalogoProdutos;
+import Sistema.ControladorRealizarVenda;
 import Modelo.Venda;
-import Modelo.*;
- import java.time.LocalDateTime;
+
+import java.time.LocalDateTime;
 
  void main(){
 
