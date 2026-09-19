@@ -20,7 +20,7 @@ public class ControladorRealizarVenda {
 	}
 	
 	public void registrarPagamento(double valorFornecido, int tipoPagamento){
-
+		venda.efetuarPagamento(valorFornecido, tipoPagamento);
 	}
 	
 }
